@@ -1,0 +1,52 @@
+.alt-media-delete {
+    margin: 1px 0 0 -21px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    display: block;
+    float: left;
+    text-indent: 0;
+    overflow: hidden;
+    position: absolute;
+    text-decoration: none;
+}
+.alt-media-delete:before {
+    background: none;
+    color: #bbb;
+    content: '\f153';
+    display: block !important;
+    font: normal 16px/1 'dashicons';
+    speak: none;
+    height: 20px;
+    text-align: center;
+    width: 20px;
+    -webkit-font-smoothing: antialiased !important;
+    margin: 2px 0;
+}
+.alt-media-delete:hover:before {
+    color: #c00;
+}
+#alt-media-select .media-toolbar,
+#alt-media-select .attachments {
+    right: 0;
+}
+#alt-media-select .media-sidebar {
+    display: none;
+}
+.alt-media-item {
+    overflow: hidden;
+    margin: 5px 0 5px 20px;
+}
+.alt-media-item img {
+    width: 20px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+.compat-item tr[class^="compat-field-alt_media"] .field {
+    float: none;
+    width: 98%;
+    clear: both;
+    overflow: hidden;
+}
+
