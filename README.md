@@ -16,7 +16,11 @@ alternative media files to other media files. Take the following examples:
 **Note**: this a developer tool - it only provides the admin UI and a function
 for retrieving the alternative media.
 
+![Admin UI](https://www.dropbox.com/s/8lmsuyp63o0xq33/Screenshot%202015-02-21%2015.14.21.png?dl=0)
+
 ## How to use it
+
+### Register a connection
 
 **`hm_register_alt_media( $key, $label, $mime_type [, $alt_mime_type = 'image' [, $multiple = false ] ] )`**
 
@@ -35,6 +39,8 @@ hm_register_alt_media( 'video_thumb', __( 'Video thumbnail' ), 'video' );
 ?>
 ```
 
+### Unregister a connection
+
 **`hm_unregister_alt_media( $key )`**
 
  * **`$key`:** an identifier for the connection to remove eg. 'video_thumb'
@@ -47,6 +53,8 @@ hm_unregister_alt_media( 'video_thumb' );
 
 ?>
 ```
+
+### Get attached files
 
 **`hm_get_alt_media( $attachment_id, $key, [, $fields = 'ids' ] )`**
 
