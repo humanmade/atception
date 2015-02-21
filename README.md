@@ -16,7 +16,7 @@ alternative media files to other media files. Take the following examples:
 **Note**: this a developer tool - it only provides the admin UI and a function
 for retrieving the alternative media.
 
-![Admin UI](https://www.dropbox.com/s/8lmsuyp63o0xq33/Screenshot%202015-02-21%2015.14.21.png?dl=0)
+![Admin UI](https://hmn-uploads.s3.amazonaws.com/humanmade-production/uploads/sites/9/2015/02/Screenshot-2015-02-21-15.14.21.png)
 
 ## How to use it
 
